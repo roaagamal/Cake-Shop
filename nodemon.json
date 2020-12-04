@@ -2,6 +2,6 @@
     "env": {
         "MONGO_USER": "roaa",
         "MONGO_PASSWORD": "B2OwcHtSyUojMla0",
-        "MONGO_DEFAULT_DATABASE": "shop"
+        "MONGO_DEFAULT_DATABASE": "cake"
     }
 }

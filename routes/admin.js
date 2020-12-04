@@ -22,10 +22,10 @@ router.post(
       .isString()
       .isLength({ min: 3 })
       .trim(),
-    body('price').isFloat(),
-    body('description')
-      .isLength({ min: 5, max: 400 })
-      .trim()
+    body('price').isFloat()
+    // body('description')
+    //   .isLength({ min: 5, max: 400 })
+    //   .trim()
   ],
   isAuth,
   adminController.postAddProduct
@@ -40,10 +40,10 @@ router.post(
       .isString()
       .isLength({ min: 3 })
       .trim(),
-    body('price').isFloat(),
-    body('description')
-      .isLength({ min: 5, max: 400 })
-      .trim()
+    body('price').isFloat()
+    // body('description')
+    //   .isLength({ min: 5, max: 400 })
+    //   .trim()
   ],
   isAuth,
   adminController.postEditProduct
